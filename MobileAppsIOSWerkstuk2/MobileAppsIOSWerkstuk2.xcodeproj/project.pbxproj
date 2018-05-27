@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0E2B4A20B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2B4820B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodeld */; };
+		3F432F4120B9908E00E32D1F /* StationWerkstuk2+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432F3F20B9908E00E32D1F /* StationWerkstuk2+CoreDataClass.swift */; };
+		3F432F4220B9908E00E32D1F /* StationWerkstuk2+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432F4020B9908E00E32D1F /* StationWerkstuk2+CoreDataProperties.swift */; };
+		3F5A374D20BAAB8500FEC8CF /* TweedeSchermController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A374C20BAAB8500FEC8CF /* TweedeSchermController.swift */; };
+		3F5A374F20BAABA000FEC8CF /* DerdeSchermController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A374E20BAABA000FEC8CF /* DerdeSchermController.swift */; };
+		3F5A375120BAABE900FEC8CF /* VierdeSchermController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A375020BAABE900FEC8CF /* VierdeSchermController.swift */; };
 		3F71A5D520A03D6900D05FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A5D420A03D6900D05FE0 /* AppDelegate.swift */; };
-		3F71A5D720A03D6900D05FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A5D620A03D6900D05FE0 /* ViewController.swift */; };
 		3F71A5DA20A03D6900D05FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F71A5D820A03D6900D05FE0 /* Main.storyboard */; };
 		3F71A5DC20A03D6900D05FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F71A5DB20A03D6900D05FE0 /* Assets.xcassets */; };
 		3F71A5DF20A03D6900D05FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F71A5DD20A03D6900D05FE0 /* LaunchScreen.storyboard */; };
 		3F71A5EA20A03D6900D05FE0 /* MobileAppsIOSWerkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A5E920A03D6900D05FE0 /* MobileAppsIOSWerkstuk2Tests.swift */; };
 		3F71A5F520A03D6900D05FE0 /* MobileAppsIOSWerkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A5F420A03D6900D05FE0 /* MobileAppsIOSWerkstuk2UITests.swift */; };
+		3FB4A89F20B5AA8100CEBE9B /* TableViewControllerScherm1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4A89E20B5AA8100CEBE9B /* TableViewControllerScherm1.swift */; };
+		3FE746F420BAC7EE00E7DC32 /* MyAnnotationStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE746F320BAC7EE00E7DC32 /* MyAnnotationStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0E2B4920B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileAppsIOSWerkstuk2.xcdatamodel; sourceTree = "<group>"; };
+		3F432F3F20B9908E00E32D1F /* StationWerkstuk2+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StationWerkstuk2+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F432F4020B9908E00E32D1F /* StationWerkstuk2+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StationWerkstuk2+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F5A374C20BAAB8500FEC8CF /* TweedeSchermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweedeSchermController.swift; sourceTree = "<group>"; };
+		3F5A374E20BAABA000FEC8CF /* DerdeSchermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerdeSchermController.swift; sourceTree = "<group>"; };
+		3F5A375020BAABE900FEC8CF /* VierdeSchermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VierdeSchermController.swift; sourceTree = "<group>"; };
 		3F71A5D120A03D6900D05FE0 /* MobileAppsIOSWerkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAppsIOSWerkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71A5D420A03D6900D05FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F71A5D620A03D6900D05FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F71A5D920A03D6900D05FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F71A5DB20A03D6900D05FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F71A5DE20A03D6900D05FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		3F71A5F020A03D6900D05FE0 /* MobileAppsIOSWerkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppsIOSWerkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71A5F420A03D6900D05FE0 /* MobileAppsIOSWerkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppsIOSWerkstuk2UITests.swift; sourceTree = "<group>"; };
 		3F71A5F620A03D6900D05FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB4A89E20B5AA8100CEBE9B /* TableViewControllerScherm1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerScherm1.swift; sourceTree = "<group>"; };
+		3FE746F320BAC7EE00E7DC32 /* MyAnnotationStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotationStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		3F71A5D320A03D6900D05FE0 /* MobileAppsIOSWerkstuk2 */ = {
 			isa = PBXGroup;
 			children = (
+				3F432F3F20B9908E00E32D1F /* StationWerkstuk2+CoreDataClass.swift */,
+				3F432F4020B9908E00E32D1F /* StationWerkstuk2+CoreDataProperties.swift */,
+				3F0E2B4820B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodeld */,
 				3F71A5D420A03D6900D05FE0 /* AppDelegate.swift */,
-				3F71A5D620A03D6900D05FE0 /* ViewController.swift */,
 				3F71A5D820A03D6900D05FE0 /* Main.storyboard */,
 				3F71A5DB20A03D6900D05FE0 /* Assets.xcassets */,
 				3F71A5DD20A03D6900D05FE0 /* LaunchScreen.storyboard */,
 				3F71A5E020A03D6900D05FE0 /* Info.plist */,
+				3FB4A89E20B5AA8100CEBE9B /* TableViewControllerScherm1.swift */,
+				3F5A374C20BAAB8500FEC8CF /* TweedeSchermController.swift */,
+				3F5A374E20BAABA000FEC8CF /* DerdeSchermController.swift */,
+				3F5A375020BAABE900FEC8CF /* VierdeSchermController.swift */,
+				3FE746F320BAC7EE00E7DC32 /* MyAnnotationStation.swift */,
 			);
 			path = MobileAppsIOSWerkstuk2;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F71A5D720A03D6900D05FE0 /* ViewController.swift in Sources */,
+				3F432F4120B9908E00E32D1F /* StationWerkstuk2+CoreDataClass.swift in Sources */,
+				3F5A374D20BAAB8500FEC8CF /* TweedeSchermController.swift in Sources */,
+				3FE746F420BAC7EE00E7DC32 /* MyAnnotationStation.swift in Sources */,
+				3F0E2B4A20B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodeld in Sources */,
+				3FB4A89F20B5AA8100CEBE9B /* TableViewControllerScherm1.swift in Sources */,
+				3F5A375120BAABE900FEC8CF /* VierdeSchermController.swift in Sources */,
 				3F71A5D520A03D6900D05FE0 /* AppDelegate.swift in Sources */,
+				3F432F4220B9908E00E32D1F /* StationWerkstuk2+CoreDataProperties.swift in Sources */,
+				3F5A374F20BAABA000FEC8CF /* DerdeSchermController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +580,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F0E2B4820B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F0E2B4920B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodel */,
+			);
+			currentVersion = 3F0E2B4920B870F900057B66 /* MobileAppsIOSWerkstuk2.xcdatamodel */;
+			path = MobileAppsIOSWerkstuk2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F71A5C920A03D6900D05FE0 /* Project object */;
 }

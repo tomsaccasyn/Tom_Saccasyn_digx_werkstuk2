@@ -78,8 +78,7 @@ class TableViewControllerScherm1: UITableViewController {
                         print("Error: did not receive data")
                         return
                 }
-                let json = try! JSONSerialization.jsonObject(with: responseData, options: []) as? NSArray
-                //let naam = json!["name"] as? String
+                let json = try! JSONSerialization.jsonObject(with: responseData, options: []) as? NSArray               //let naam = json!["name"] as? String
                 for item in json!
                 {
                     self.i = self.i+1
@@ -104,9 +103,9 @@ class TableViewControllerScherm1: UITableViewController {
                                 item.address = itemaddress}
                         
                         }
-                        let itemposition = itemDict.value(forKey:"position") as! NSDictionary
+                        let itemposition = itemDict.value(forKey: "position") as! NSDictionary
                         if itemposition.value(forKey: "lat") != nil{
-                         let itemlat = itemposition.value(forKey:"lat") as! Double
+                         let itemlat = itemposition.value(forKey: "lat") as! Double
                                 item.lat = itemlat
                         }
                         
@@ -157,6 +156,7 @@ class TableViewControllerScherm1: UITableViewController {
                          let itemLU = itemDict.value(forKey: "last_update")  as! Int64
                                 item.last_update = itemLU
                         }
+                        print(item)
                         
                               do {
                                 print("test")
@@ -181,7 +181,17 @@ class TableViewControllerScherm1: UITableViewController {
         catch{
                     print("Data not found")
                 }
-    
+ 
+       let resultsAdd = try! managedContext.fetch(request)
+        if resultsAdd.count > 0{
+            
+            
+            for resultAdd in resultsAdd as! [StationWerkstuk2]
+            {
+                stationsopgehaald.append(resultAdd)
+                
+            }
+        }
             }
 
     

@@ -16,6 +16,7 @@ class TweedeSchermController: UIViewController {
     @IBOutlet weak var txtStatus: UILabel!
     @IBOutlet weak var txtBanking: UILabel!
     @IBOutlet weak var txtBonus: UILabel!
+    @IBOutlet weak var BtnUpdate: UIButton!
     @IBOutlet weak var txtCN: UILabel!
     @IBOutlet weak var txtBS: UILabel!
     @IBOutlet weak var txtABS: UILabel!
